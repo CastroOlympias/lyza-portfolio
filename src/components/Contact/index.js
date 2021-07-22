@@ -24,12 +24,12 @@ function ContactForm() {
                 }
             }
         }
-       
+
         // console.log('errorMessage', errorMessage);
 
         if (!errorMessage) {
             setFormState({ ...formState, [e.target.name]: e.target.value });
-          }
+        }
     }
 
     // console.log(formState);
